@@ -54,7 +54,7 @@ namespace MyWebApp
             services.AddMvc();
 
             // This is a test prior to a GIT push
-            
+            // Test 2
             // Add application services.
             services.AddTransient<IEmailSender, AuthMessageSender>();
             services.AddTransient<ISmsSender, AuthMessageSender>();
